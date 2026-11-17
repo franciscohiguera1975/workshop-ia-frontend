@@ -49,8 +49,11 @@ export default function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Más allá del chat</h1>
-        <p>Frontend de referencia del workshop — no se edita durante el taller.</p>
+        <img src="/ute-logo.png" alt="Logo UTE" className="app-logo" />
+        <div className="app-header-text">
+          <h1>Más allá del chat</h1>
+          <p>Skills, RAG, Agentes de IA y MCP · Universidad UTE</p>
+        </div>
       </header>
 
       <main className="chat-window">
